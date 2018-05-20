@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PovrsinaTrokuta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unesite_stranicu_a">Unesite stranicu a:</string>
+    <string name="unesite_stranicu_b">Unesite stranicu b:</string>
+    <string name="unesite_stranicu_c">Unesite stranicu c:</string>
+    <string name="izra_unaj">Izračunaj</string>
+    <string name="povratak">Povratak</string>
+    <string name="povrsina_trokuta_iznosi">Površina trokuta iznosi:</string>
+    <string name="stranica_a">Stranica a</string>
+    <string name="stranica_b">Stranica b</string>
+    <string name="stranica_c">Stranica c</string>
+    <string name="povr_ina">Površina</string>
+    <string name="datum">Datum</string>
+</resources>

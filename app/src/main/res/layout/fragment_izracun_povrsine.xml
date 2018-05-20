@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tomislav.piskur.com.povrsinatrokuta.Activity.IzracunPovrsineFragment">
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tva"
+        android:text="@string/unesite_stranicu_a"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@+id/tva"
+        android:id="@+id/eta"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvb"
+        android:text="@string/unesite_stranicu_b"
+        android:layout_below="@+id/eta"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@+id/tvb"
+        android:id="@+id/etb"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unesite_stranicu_c"
+        android:layout_below="@+id/etb"
+        android:id="@+id/tvc"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/etc"
+        android:layout_below="@+id/tvc"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIzracunaj"
+        android:text="@string/izra_unaj"
+        android:layout_below="@+id/etc"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+
